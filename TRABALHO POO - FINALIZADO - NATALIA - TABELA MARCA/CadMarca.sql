@@ -1,0 +1,10 @@
+CREATE DATABASE CadMarca;
+use CadMarca;
+
+CREATE TABLE Marca(
+Id_marca INT PRIMARY KEY AUTO_INCREMENT,
+Nome VARCHAR(255),
+Observacao VARCHAR(255),
+Localidade VARCHAR(255)
+);
+
